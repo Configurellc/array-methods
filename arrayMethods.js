@@ -25,3 +25,15 @@ var genericNumberArray = [];
 var emptyGenericNumArray = genericNumberArray.push(1, 2, 3, 4,5 ,6, 7, 8, 9, 10 );
     console.log(genericNumberArray);
 
+/*Number 2 */
+
+var colors = ['Blue','Red','Yellow', 'Orange'];
+  console.log(colors);
+
+var removed = colors.pop();
+console.log(colors); //my last color was removed due to pop()
+console.log(removed); // shows the value that was removed from the array colors
+
+var popResult= 'Charlie';
+  console.log(popResult);
+// var popResult = doubleRemove.push('Charlie');
