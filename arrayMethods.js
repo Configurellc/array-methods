@@ -42,3 +42,9 @@ var reversal = scrambledWords.reverse();
     console.log(reversal); // this array prototype reads the array backwards
 var myNumbs = phoneNumber.reverse();
     console.log(myNumbs);
+
+/*Number 4 Refer back to Question 2..This is how you store the value*/
+var myRemoval = orderQueue.shift();
+    console.log(myRemoval);
+var nextOrder = myRemoval;
+    console.log(nextOrder);
