@@ -48,3 +48,49 @@ var myRemoval = orderQueue.shift();
     console.log(myRemoval);
 var nextOrder = myRemoval;
     console.log(nextOrder);
+
+/* Number 5 */
+var myArray = mixedNums.sort();
+    console.log(mixedNums);
+
+var myWords = mixedWords.sort();
+    console.log(myWords);
+/*Number 6*/
+var removeFruit = fruitCollection.splice(1, 3);
+    console.log(fruitCollection);
+    console.log(removeFruit);
+var notFruit = removeFruit;
+
+//gems
+var myGem = gemBox.splice(5, 7, 'Sapphire');
+    console.log(gemBox);
+    console.log(myGem);
+
+//upToTen ****ASK QUESTION****INCOMPLETE!!
+var myCount = upToTen.splice(4, 1, 3, 4, 5, 6, 7, 8);
+    // myCount = upToTen.sort();
+    console.log(myCount);
+    console.log(upToTen);
+
+//brown only
+var brown = brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
+    console.log(brown);
+    console.log(brownOnly);
+
+/*Number 7 */
+var addOrder = orderedValues.unshift(1, 2, 3);
+    console.log(orderedValues); // why does this console as an array
+var orderedValuesNewLength = addOrder;
+    console.log(orderedValuesNewLength);//but this just consoles as 10
+
+/*Number 8  ASK QUESTIONS THIS IS INCOMPLETE*/
+// var randomThingsArray = [genericNumberArray + ',' + ' ' + colors];
+// var randomThingsArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Blue', 'Red', 'Yellow'];
+  var randomThingsArray = [];
+  var pushMe = randomThingsArray.push([genericNumberArray] + ',' + [colors]);
+    console.log(randomThingsArray);
+
+
+/*Number 9 */
+var sentence = scrambledWords.join(' ');
+    console.log(sentence);
