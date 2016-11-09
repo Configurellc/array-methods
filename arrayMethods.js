@@ -94,3 +94,20 @@ var orderedValuesNewLength = addOrder;
 /*Number 9 */
 var sentence = scrambledWords.join(' ');
     console.log(sentence);
+var myFruits = fruitCollection.join(' + ');
+    console.log(myFruits);
+
+/*Number 10 ASK QUESTING THIS IS INCOMPLETE*/
+var favoriteFriends = friends.slice(1, 3);
+    console.log(favoriteFriends);
+var owesMoney = friends.splice(3, 3);
+    console.log(friends);
+    console.log(owesMoney);
+
+/*Number 11 */
+var monthNameString = monthNames.toString();
+
+/*Number 12*/
+
+
+/*Number 13 */
