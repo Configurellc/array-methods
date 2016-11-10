@@ -16,98 +16,115 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
-
+/*Number 1 push() */
 var nameArray = [] ;
 var emptyArray = nameArray.push('Joshua', 'Lee');
-    console.log(nameArray);
+    // console.log(nameArray);
 
 var genericNumberArray = [];
 var emptyGenericNumArray = genericNumberArray.push(1, 2, 3, 4,5 ,6, 7, 8, 9, 10 );
-    console.log(genericNumberArray);
+    // console.log(genericNumberArray);
 
-/*Number 2 * follow up with questions*/
+/*Number 2 pop() * follow up with questions*/
 
 var colors = ['Blue','Red','Yellow', 'Orange'];
-  console.log(colors);
+  // console.log(colors);
 
 var removed = colors.pop();
-    console.log(colors); //my last color was removed due to pop()
-    console.log(removed); // shows the value that was removed from the array colors
+    // console.log(colors); //my last color was removed due to pop()
+    // console.log(removed); // shows the value that was removed from the array colors
 
 var popResult= 'Charlie';
-    console.log(popResult);
+    // console.log(popResult);
 
-/*Number 3*/
+/*Number 3 reverse() */
 var reversal = scrambledWords.reverse();
-    console.log(reversal); // this array prototype reads the array backwards
+    // console.log(reversal); // this array prototype reads the array backwards
 var myNumbs = phoneNumber.reverse();
-    console.log(myNumbs);
+    // console.log(myNumbs);
 
-/*Number 4 Refer back to Question 2..This is how you store the value*/
+/*Number 4 shift() Refer back to Question 2..This is how you store the value*/
 var myRemoval = orderQueue.shift();
-    console.log(myRemoval);
+    // console.log(myRemoval);
 var nextOrder = myRemoval;
-    console.log(nextOrder);
+    // console.log(nextOrder);
 
-/* Number 5 */
+/* Number 5 sort() */
 var myArray = mixedNums.sort();
-    console.log(mixedNums);
+    // console.log(mixedNums);
 
 var myWords = mixedWords.sort();
-    console.log(myWords);
-/*Number 6*/
+    // console.log(myWords);
+
+/*Number 6 splice() */
 var removeFruit = fruitCollection.splice(1, 3);
-    console.log(fruitCollection);
-    console.log(removeFruit);
+    // console.log(fruitCollection);
+    // console.log(removeFruit);
 var notFruit = removeFruit;
 
 //gems
 var myGem = gemBox.splice(5, 7, 'Sapphire');
-    console.log(gemBox);
-    console.log(myGem);
+    // console.log(gemBox);
+    // console.log(myGem);
 
-//upToTen ****ASK QUESTION****INCOMPLETE!!
-var myCount = upToTen.splice(4, 1, 3, 4, 5, 6, 7, 8);
+//upToTen
+var myCount = upToTen.splice(2, 2, 3, 4, 5, 6, 7, 8, 9, 10);
     // myCount = upToTen.sort();
-    console.log(myCount);
-    console.log(upToTen);
+    // console.log(myCount);
+    // console.log(upToTen);
 
 //brown only
 var brown = brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
-    console.log(brown);
-    console.log(brownOnly);
+    // console.log(brown);
+    // console.log(brownOnly);
 
-/*Number 7 */
+/*Number 7 unshift()*/
 var addOrder = orderedValues.unshift(1, 2, 3);
-    console.log(orderedValues); // why does this console as an array
+    // console.log(orderedValues); // why does this console as an array
 var orderedValuesNewLength = addOrder;
-    console.log(orderedValuesNewLength);//but this just consoles as 10
+    // console.log(orderedValuesNewLength);//but this just consoles as 10
 
-/*Number 8  ASK QUESTIONS THIS IS INCOMPLETE*/
+/*Number 8  concat() ASK QUESTIONS THIS IS INCOMPLETE*/
 // var randomThingsArray = [genericNumberArray + ',' + ' ' + colors];
 // var randomThingsArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Blue', 'Red', 'Yellow'];
   var randomThingsArray = [];
   var pushMe = randomThingsArray.push([genericNumberArray] + ',' + [colors]);
-    console.log(randomThingsArray);
+    // console.log(randomThingsArray);
 
 
-/*Number 9 */
+/*Number 9 join()*/
 var sentence = scrambledWords.join(' ');
-    console.log(sentence);
+    // console.log(sentence);
 var myFruits = fruitCollection.join(' + ');
-    console.log(myFruits);
+    // console.log(myFruits);
 
-/*Number 10 ASK QUESTING THIS IS INCOMPLETE*/
+/*Number 10 slice() ASK QUESTING THIS IS INCOMPLETE*/
+
+
+
 var favoriteFriends = friends.slice(1, 3);
-    console.log(favoriteFriends);
-var owesMoney = friends.splice(3, 3);
+    // console.log(favoriteFriends);
+var owesMoney = friends.slice(3, 6 );
+// var owesMoney = payUp;
     console.log(friends);
     console.log(owesMoney);
+    console.log(favoriteFriends);
 
-/*Number 11 */
+
+
+
+
+/*Number 11 toString() */
 var monthNameString = monthNames.toString();
 
-/*Number 12*/
+/*Number 12 indexOf()*/
+var favoriteColor = colors.indexOf('Red');
+    // console.log(favoriteColor);
+var favoriteEvenNumber = mixedNums.indexOf(76);
+    // console.log(favoriteEvenNumber);
 
-
-/*Number 13 */
+/*Number 13 lastIndexOf() */
+var lastNine = bulkNumbers.lastIndexOf(9);
+    // console.log(lastNine);
+var lastFive = bulkNumbers.lastIndexOf(5);
+    // console.log(lastFive);
