@@ -23,7 +23,7 @@ var emptyArray = nameArray.push('Joshua', 'Lee');
 
 var genericNumberArray = [];
 var emptyGenericNumArray = genericNumberArray.push(1, 2, 3, 4,5 ,6, 7, 8, 9, 10 );
-    // console.log(genericNumberArray);
+//    console.log(genericNumberArray);
 
 /*Number 2 pop() * follow up with questions*/
 
@@ -87,9 +87,12 @@ var orderedValuesNewLength = addOrder;
 /*Number 8  concat() ASK QUESTIONS THIS IS INCOMPLETE*/
 // var randomThingsArray = [genericNumberArray + ',' + ' ' + colors];
 // var randomThingsArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Blue', 'Red', 'Yellow'];
-  var randomThingsArray = [];
-  var pushMe = randomThingsArray.push([genericNumberArray] + ',' + [colors]);
-    // console.log(randomThingsArray);
+  var randomThingsArray = genericNumberArray.concat(colors);
+  // var pushMe = randomThingsArray.concat([genericNumberArray] + ',' + [colors]);
+    console.log(randomThingsArray);
+  var newTakeout = [{takeOut : 'milk'}];
+  var secondTakeout = [{takeOut: 'orange juice'}];
+  var updatedOrders = orderQueue.concat(newTakeout, secondTakeout);
 
 
 /*Number 9 join()*/
@@ -106,9 +109,9 @@ var favoriteFriends = friends.slice(1, 3);
     // console.log(favoriteFriends);
 var owesMoney = friends.slice(3, 6 );
 // var owesMoney = payUp;
-    console.log(friends);
-    console.log(owesMoney);
-    console.log(favoriteFriends);
+    // console.log(friends);
+    // console.log(owesMoney);
+    // console.log(favoriteFriends);
 
 
 
